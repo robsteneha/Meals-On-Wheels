@@ -1,0 +1,203 @@
+/*#main-wrapper{
+    width:500px;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #2c3e50;
+}*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(chef1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 950px;
+}
+/*#login_btn{
+    margin-top:10px;
+    background-color: #27ae60;
+    padding: 5px;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#signup_btn{
+    margin-top:10px;
+    background-color: #3498db;
+    padding: 5px;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#back_btn{
+    margin-top:10px;
+    margin-bottom: 20px;
+    background-color: #e47a1e;
+    padding: 5px;
+    color:white;
+    width:30%;
+    text-align:center;
+    font-weight: bold;
+}
+#register_btn{
+    margin-top:10px;
+    margin-bottom: 20px;
+    background-color: #3498db;
+    padding: 5px;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#logout_btn{
+    margin-bottom: 20px;
+    margin-top:10px;
+    background-color: #e74c3c;
+    padding: 5px;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.avatar{
+    width:150px;
+    text-align:center;
+    
+}*/
+.myform{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(2, 4, 5, 0.651)/*#191919*/;
+    text-align: center;
+}
+.myform{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.myform input[type = "text"], .myform input[type = "password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+        
+}
+.myform input[type = "text"]:focus, .myform input[type = "password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+#login_btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#login_btn:hover{
+    background: #2ecc71;
+}
+#register_btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#register_btn:hover{
+    background: #2ecc71;
+}
+#signup_btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#signup_btn:hover{
+    background: #2ecc71;
+}
+#back_btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#back_btn:hover{
+    background: #2ecc71;
+}
+#logout_btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#logout_btn:hover{
+    background: #2ecc71;
+}
+/*.inputvalues{
+    width:430px;
+    margin: 0 auto;
+    padding:5px;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+}*/
